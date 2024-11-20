@@ -15,7 +15,7 @@ header nav ul {
     /* changes style of lists(points) */
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     /* space between items */
 }
 
@@ -23,6 +23,7 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 header nav ul li a:hover {
@@ -39,11 +40,11 @@ header nav ul li a:hover {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .hero-content p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 20px 0;
 }
 
@@ -54,4 +55,45 @@ header nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.about h2 {
+    font-size: 3rem;
+}
+
+.about p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Skills Section */
+
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    width: 30%;
 }
