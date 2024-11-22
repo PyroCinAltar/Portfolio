@@ -64,13 +64,17 @@ header nav ul li a:hover {
     background-color: #f1f1f1;
 }
 
-.about h2 {
+h2 {
     font-size: 3rem;
 }
 
-.about p {
-    font-size: 1.5rem;
-    color: #555;
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #e59028;
 }
 
 /* Skills Section */
@@ -106,9 +110,10 @@ header nav ul li a:hover {
     background-color: antiquewhite;
 }
 
+/* 
 .projects h2 {
     font-size: 2.5rem;
-}
+} */
 
 .project-list {
     display: flex;
@@ -126,4 +131,87 @@ header nav ul li a:hover {
 
 .projects .project-list .project-item img {
     width: 75%;
+}
+
+/* Contact Section */
+
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #e59028;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.contact-form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: rgb(4, 200, 249);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
 }
